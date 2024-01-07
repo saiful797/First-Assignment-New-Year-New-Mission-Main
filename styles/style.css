@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+/* Banner Section */
 .background-banner{
     width: 100%;
     height: auto;
@@ -14,6 +15,7 @@
 .background-banner img{
     padding: 140px;
     padding-top: 50px;
+    padding-bottom: 50px;
     width: 100%;
 }
 
@@ -27,6 +29,7 @@
     font-size: 72px;
     font-weight: 900;
     font-style: normal;
+    font-family: Merriweather;
 
 }
 .background-banner .background-text #new-year{
@@ -34,4 +37,34 @@
 }
 .background-banner .background-text #new-year-party{
     padding-top: 20px;
+}
+
+/* Offer section for new year */
+.offers{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    font-style: normal;
+}
+
+.offers #new-year-offer{
+    color: #F00;
+    font-size: 88px;
+    font-family: Inter;
+}
+
+.offers #offers-holiday{
+    color: #F00;
+    font-size: 20px;
+    padding-top: 48px;
+    font-family: Inter;
+}
+.offers #offers-cat{
+    color: black;
+    font-family: Inter;
+    font-size:  40px;
+}
+
+.offers img{
+    padding-top: 48px;
 }
