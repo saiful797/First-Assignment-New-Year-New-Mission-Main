@@ -68,3 +68,43 @@
 .offers img{
     padding-top: 48px;
 }
+
+/* Place, Date & Time Section */
+.bg-style{
+    margin: 140px;
+    width: 1100px;
+    height: 482px;
+    position: relative;
+    border-radius: 10px;
+    background-color: #fdf1f1;
+    text-align: center;
+}
+
+.bg-style .shope-place .arrange{
+    color: #F00;
+}
+
+ .bg-style .shope-place{
+    font-size: 15px;
+    position: absolute;
+    left: 30%;
+    top: 35%;   
+}
+
+.text-place{
+    font-family: Inter;
+    padding-top: 10px;
+}
+
+#join-btn{
+    background-color: #F00;
+    color: white;
+    border: 0;
+    height: 25px;
+    width: 80px;
+    border-radius: 5px;
+}
+#btn-bg{
+    padding-top: 20px;
+}
+
