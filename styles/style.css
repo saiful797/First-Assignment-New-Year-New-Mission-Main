@@ -63,7 +63,7 @@
 .offers #offers-holiday{
     color: #F00;
     font-size: 20px;
-    padding-top: 48px;
+    padding-top: 30px;
     font-family: Inter;
 }
 .offers #offers-cat{
@@ -127,6 +127,8 @@
 /*Starting point: Place, Date & Time Section */
 .bg-style{
     margin: 140px;
+    margin-top: 100px;
+    margin-bottom: 20px;
     width: 1320px;
     height: 482px;
     position: relative;
@@ -140,10 +142,11 @@
 }
 
  .bg-style .shope-place{
-    font-size: 15px;
+    font-size: 30px;
+    font-family: Inter;
     position: absolute;
-    left: 35%;
-    top: 35%;   
+    left: 30%;
+    top: 30%;   
 }
 
 .text-place{
@@ -155,76 +158,14 @@
     background-color: #F00;
     color: white;
     border: 0;
-    height: 30px;
-    width: 80px;
+    height: 35px;
+    width: 100px;
     border-radius: 5px;
 }
 #btn-bg{
     padding-top: 20px;
 }
 /*End point: Place, Date & Time Section */
-
-/* Starting Point: WHAT IS FUNCTIONAL  */
-.what-is-function{
-    margin: 140px;
-    width: 1320px;
-    height: auto;
-}
-.function-text{
-    text-align: center;
-}
-#functional-text{
-    color: #070211;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-}
-#functional-holiday{
-    color: #070211;
-    font-family: Merriweather;
-    font-size: 72px;
-    font-weight: 900;
-}
-#holiday{
-    color: #F00;
-}
-#holiday-description-text{
-    color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
-    padding-left: 200px;
-    width: 1000px;
-    font-size: 20px;
-    font-weight: 500;
-}
-
-#offer-50{
-    display: flex;
-    position: relative;
-    padding-left: 905px;
-}
-#Group44{
-    position: absolute;
-    top: 35%;
-    left: 60%;
-}
-.offer-50-img-box{
-    position: relative;
-}
-#offer-group75{
-    position: absolute;
-    bottom: 70px;
-
-}
-.image-group{
-    position: relative;
-    width: 1335px;
-    height: 229px; 
-    border-radius: 16px 0px 16px 16px;
-    background-color: #F00;    
-}
-
-/* End Point: WHAT IS FUNCTIONAL  */
-
 
 /*Starting point: NEW BEST OFFER Section */
 .new-best-offer{
@@ -271,8 +212,8 @@
 #ellipse-img{
     width: 360px;
     position: relative;
-    top: 47px;
-    left:47px;
+    top: 50px;
+    left: 50px;
     height: 360px;
 }
 
@@ -289,9 +230,71 @@
 }
 
 #new-24-img{
-    padding-top: 20px;
+    padding-top: 40px;
 }
 /*End point: NEW BEST OFFER Section */
+
+/* Starting Point: WHAT IS FUNCTIONAL  */
+.what-is-function{
+    margin: 140px;
+    width: 1320px;
+    height: 250px;
+}
+.function-text{
+    text-align: center;
+}
+#functional-text{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+#functional-holiday{
+    color: #070211;
+    font-family: Merriweather;
+    padding-top: 25px;
+    font-size: 72px;
+    font-weight: 900;
+}
+#holiday{
+    color: #F00;
+}
+#holiday-description-text{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    padding-top: 40px;
+    padding-left: 200px;
+    width: 1000px;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* End Point: WHAT IS FUNCTIONAL  */
+
+#offer-50{
+    display: flex;
+    position: relative;
+    padding-left: 905px;
+}
+#Group44{
+    position: absolute;
+    top: 35%;
+    left: 60%;
+}
+.offer-50-img-box{
+    position: relative;
+}
+#offer-group75{
+    position: absolute;
+    bottom: 70px;
+
+}
+.image-group{
+    position: relative;
+    width: 1335px;
+    height: 229px; 
+    border-radius: 16px 0px 16px 16px;
+    background-color:#F00;    
+}
 
 /*Starting point: Magic Box offer */
 .magic-offer{
