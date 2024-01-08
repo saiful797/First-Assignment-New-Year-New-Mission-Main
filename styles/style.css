@@ -39,7 +39,52 @@
     padding-top: 20px;
 }
 
-/* Offer section for new year */
+/*Welcome to Midnight Party Section*/
+
+.midnight-part{
+    margin:140px;
+    width: 1320px;
+    height: 600px;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    background-image: url('../images/Vectorrr.png');
+}
+#midnight-text{
+    position: relative;
+    top:30%;
+    left: 100px;
+}
+
+#midnight-welcome-text{
+    width: 640px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+
+#mid-text{
+    width: 700px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
+#midnight-join{
+    padding-left: 50px;
+}
+
+.mid-2024{
+    padding-top: 100px;
+    padding-right: 100px;
+}
+
+/* 65% OFF Section */
+
 .offers{
     position: relative;
     text-align: center;
