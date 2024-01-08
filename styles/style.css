@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-/* Banner Section */
+/*Starting point: Banner Section */
 .background-banner{
     width: 100%;
     height: auto;
@@ -38,8 +38,9 @@
 .background-banner .background-text #new-year-party{
     padding-top: 20px;
 }
+/*End point: Banner Section */
 
-/*Welcome to Midnight Party Section*/
+/*starting point: Welcome to Midnight Party Section*/
 
 .midnight-part{
     margin:140px;
@@ -82,9 +83,9 @@
     padding-top: 100px;
     padding-right: 100px;
 }
+/*End point: Welcome to Midnight Party Section*/
 
-/* 65% OFF Section */
-
+/*Starting point: 65% OFF Section */
 .offers{
     position: relative;
     text-align: center;
@@ -113,8 +114,9 @@
 .offers img{
     padding-top: 48px;
 }
+/*End: point: 65% OFF Section */
 
-/* Place, Date & Time Section */
+/*Starting point: Place, Date & Time Section */
 .bg-style{
     margin: 140px;
     width: 1320px;
@@ -152,8 +154,76 @@
 #btn-bg{
     padding-top: 20px;
 }
+/*End point: Place, Date & Time Section */
 
-/* NEW BEST OFFER Section */
+/* Starting Point: WHAT IS FUNCTIONAL  */
+.what-is-function{
+    margin: 140px;
+    width: 1320px;
+    height: auto;
+}
+.function-text{
+    text-align: center;
+}
+#functional-text{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+#functional-holiday{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+#holiday{
+    color: #F00;
+}
+#holiday-description-text{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#offer-50{
+    display: flex;
+    position: relative;
+    padding-left: 905px;
+}
+#Group44{
+    position: absolute;
+    top: 35%;
+    left: 60%;
+}
+.offer-50-img-box{
+    position: relative;
+}
+#offer-group75{
+    position: absolute;
+    bottom: 70px;
+
+}
+.image-group{
+    position: relative;
+    width: 1335px;
+    height: 229px; 
+    border-radius: 16px 0px 16px 16px;
+    background-color: #F00;    
+}
+
+/* End Point: WHAT IS FUNCTIONAL  */
+
+/*Starting point: Magic Box offer */
+.magic-offer{
+    margin: 140px;
+    width: 1320px;
+    height: auto;
+}
+/*End point: Magic Box offer */
+
+/*Starting point: NEW BEST OFFER Section */
 .new-best-offer{
     margin: 140px;
     display: flex;
@@ -218,13 +288,53 @@
 #new-24-img{
     padding-top: 20px;
 }
+/*End point: NEW BEST OFFER Section */
 
-/* Portfolio Section */
+/*Starting point: Portfolio Section */
 .the-best-gift{
     margin: 140px;
+    padding-top: 150px;
+}
+.header-best-gifts{
+    color: #F00;
+    font-family: Inter;
+    padding-bottom: 15px;
+    font-size: 24px;
+    font-weight: 500;
 }
 
-/* subscribe Section */
+#best-gift-portfolio{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+
+#gift-text{
+    color: rgba(8, 3, 18, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+.gift-image1{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+.img-hover:hover{
+
+    transform: scale(1.5);
+    z-index: 3;
+}
+
+/*End point: Portfolio Section */
+
+
+/*Starting point: subscribe Section */
 .subscribe{
     margin: 140px;
     width: 1320px;
@@ -264,7 +374,9 @@
 #sub-email{
     background-color: #F00;
 }
-/* footer section */
+/*End point: subscribe Section */
+
+/*Starting point: footer section */
 .footer-section{
     width: 100%;
     height: 500px;
@@ -307,3 +419,4 @@
 .social-links .link-icon{
     padding-right: 10px;
 }
+/*End point: footer section */
