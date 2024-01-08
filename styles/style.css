@@ -1,18 +1,17 @@
 *{
     padding:0;
     margin:0;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Merriweather', serif;
-    box-sizing: border-box;
 }
 
 /*Starting point: Banner Section */
 .background-banner-text{
     margin:140px;
+    margin-bottom: 50px;
     width: 1320px;
     height: 600px;
     color:#FFF;
     position: relative;
+    border-radius: 16px;
     background-image:url('../images/Banner-image.png');
 }
 #new-year{
@@ -34,12 +33,56 @@
     font-size:72px;
     font-weight:900;
 }
+
+#new-year-cele{
+    position: absolute;
+    top:50%;
+    left: 35%; 
+    width: 630px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size:72px;
+    font-weight:900;
+}
 /*End point: Banner Section */
 
-/*starting point: Welcome to Midnight Party Section*/
+/*Starting point: 65% OFF Section */
+.offers{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    font-style: normal;
+}
 
+.offers #new-year-offer{
+    color: #F00;
+    font-size: 88px;
+    font-family: Inter;
+}
+
+.offers #offers-holiday{
+    color: #F00;
+    font-size: 20px;
+    padding-top: 48px;
+    font-family: Inter;
+}
+.offers #offers-cat{
+    color: black;
+    font-family: Inter;
+    padding-top: 15px;
+    font-size:  40px;
+}
+
+.offers img{
+    padding-top: 48px;
+}
+/*End point: 65% OFF Section */
+
+/*starting point: Welcome to Midnight Party Section*/
 .midnight-part{
     margin:140px;
+    margin-top: 100px;
+    margin-bottom: 50px;
     width: 1320px;
     height: 600px;
     color: #FFF;
@@ -80,37 +123,6 @@
     padding-right: 100px;
 }
 /*End point: Welcome to Midnight Party Section*/
-
-/*Starting point: 65% OFF Section */
-.offers{
-    position: relative;
-    text-align: center;
-    width: 100%;
-    font-style: normal;
-}
-
-.offers #new-year-offer{
-    color: #F00;
-    font-size: 88px;
-    font-family: Inter;
-}
-
-.offers #offers-holiday{
-    color: #F00;
-    font-size: 20px;
-    padding-top: 48px;
-    font-family: Inter;
-}
-.offers #offers-cat{
-    color: black;
-    font-family: Inter;
-    font-size:  40px;
-}
-
-.offers img{
-    padding-top: 48px;
-}
-/*End: point: 65% OFF Section */
 
 /*Starting point: Place, Date & Time Section */
 .bg-style{
@@ -179,6 +191,8 @@
 #holiday-description-text{
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
+    padding-left: 200px;
+    width: 1000px;
     font-size: 20px;
     font-weight: 500;
 }
@@ -211,14 +225,6 @@
 
 /* End Point: WHAT IS FUNCTIONAL  */
 
-/*Starting point: Magic Box offer */
-.magic-offer{
-    margin: 140px;
-    width: 1320px;
-    height: auto;
-    padding: 0px;
-}
-/*End point: Magic Box offer */
 
 /*Starting point: NEW BEST OFFER Section */
 .new-best-offer{
@@ -265,8 +271,8 @@
 #ellipse-img{
     width: 360px;
     position: relative;
-    top: 35px;
-    left:35px;
+    top: 47px;
+    left:47px;
     height: 360px;
 }
 
@@ -287,10 +293,19 @@
 }
 /*End point: NEW BEST OFFER Section */
 
+/*Starting point: Magic Box offer */
+.magic-offer{
+    margin: 140px;
+    width: 1320px;
+    height:auto;
+    position: 50%;
+}
+/*End point: Magic Box offer */
+
 /*Starting point: Portfolio Section */
 .the-best-gift{
     margin: 140px;
-    padding-top: 150px;
+    padding-top: 50px;
 }
 .header-best-gifts{
     color: #F00;
@@ -335,12 +350,11 @@
 .subscribe{
     margin: 140px;
     width: 1320px;
-    height: 600px;
-    position: relative;
+    height: 400px;
     border-radius: 10px;
     background-color: #fdf1f1;
     text-align: center;
-    padding: 150px;
+    padding: 50px;
     padding-top: 70px;
 }
 .subscribe #subscribe-news{
@@ -364,8 +378,7 @@
     padding-top: 50px;
     border: none;
     height: 70px;
-    border-radius: 5px;
-
+    border-radius:5px;
 }
 
 #sub-email{
