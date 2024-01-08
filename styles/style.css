@@ -220,6 +220,7 @@
     margin: 140px;
     width: 1320px;
     height: auto;
+    padding: 0px;
 }
 /*End point: Magic Box offer */
 
@@ -366,13 +367,14 @@
 .subscribe .input-email{
     padding-top: 50px;
     border: none;
-    height: 50px;
-    border-radius: 50px;
+    height: 70px;
+    border-radius: 5px;
 
 }
 
 #sub-email{
     background-color: #F00;
+    color: #FFF;
 }
 /*End point: subscribe Section */
 
