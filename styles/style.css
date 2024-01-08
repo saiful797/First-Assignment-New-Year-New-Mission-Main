@@ -87,7 +87,7 @@
  .bg-style .shope-place{
     font-size: 15px;
     position: absolute;
-    left: 30%;
+    left: 35%;
     top: 35%;   
 }
 
@@ -100,7 +100,7 @@
     background-color: #F00;
     color: white;
     border: 0;
-    height: 25px;
+    height: 30px;
     width: 80px;
     border-radius: 5px;
 }
@@ -108,6 +108,46 @@
     padding-top: 20px;
 }
 
+/* subscribe Section */
+.subscribe{
+    margin: 140px;
+    width: 1200px;
+    height: 600px;
+    position: relative;
+    border-radius: 10px;
+    background-color: #fdf1f1;
+    text-align: center;
+    padding: 150px;
+    padding-top: 70px;
+}
+.subscribe #subscribe-news{
+    color: #070211; 
+    font-family: Merriweather;
+    padding-top: 10px;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subscribe #subscribe-text{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+.subscribe .input-email{
+    padding-top: 50px;
+    border: none;
+    height: 50px;
+    border-radius: 50px;
+
+}
+
+#sub-email{
+    background-color: #F00;
+}
 /* footer section */
 .footer-section{
     width: 100%;
@@ -146,4 +186,8 @@
     justify-content: space-between;
     padding-top: 50px;
     padding-right: 200px;
+}
+
+.social-links .link-icon{
+    padding-right: 10px;
 }
