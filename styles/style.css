@@ -8,8 +8,10 @@
 
 /*Starting point: Banner Section */
 .background-banner{
-    width: 100%;
-    height: auto;
+    margin: 140px;
+    width: 1320px;
+    height: 600px;
+    background-image: url('../images/Banner-image.png');
     position: relative;
 }
 .background-banner img{
