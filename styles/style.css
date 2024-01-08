@@ -72,7 +72,7 @@
 /* Place, Date & Time Section */
 .bg-style{
     margin: 140px;
-    width: 1350px;
+    width: 1320px;
     height: 482px;
     position: relative;
     border-radius: 10px;
@@ -108,10 +108,28 @@
     padding-top: 20px;
 }
 
+/* NEW BEST OFFER Section */
+.new-best-offer{
+    margin: 140px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.ellipse{
+    border-radius: 100%;
+    padding: 20px;
+    margin: 10px red;
+}
+
+/* Portfolio Section */
+.the-best-gift{
+    margin: 140px;
+}
+
 /* subscribe Section */
 .subscribe{
     margin: 140px;
-    width: 1350px;
+    width: 1320px;
     height: 600px;
     position: relative;
     border-radius: 10px;
