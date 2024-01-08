@@ -112,13 +112,66 @@
 .new-best-offer{
     margin: 140px;
     display: flex;
-    text-align: center;
+    width: 1320px;
+    height: 500px;
     justify-content: space-between;
 }
+.new-best-offer .new-best-text{
+    text-align: left;
+    width: 350px;
+    padding-top: 150px ;
+}
+
+#offer-text{
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#text-coming-soon{
+    color: #070211;
+    padding-top: 20px;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#Best-text{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    padding-top: 20px;
+    font-weight: 400;
+}
 .ellipse{
-    border-radius: 100%;
-    padding: 20px;
-    margin: 10px red;
+    width: 463px;
+    height: 463px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+#ellipse-img{
+    width: 360px;
+    position: relative;
+    top: 35px;
+    left:35px;
+    height: 360px;
+}
+
+.new-2024{
+    text-align: left;
+    width: 350px;
+    padding-top: 130px;
+}
+#year-2024{
+    color: #F00;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#new-24-img{
+    padding-top: 20px;
 }
 
 /* Portfolio Section */
