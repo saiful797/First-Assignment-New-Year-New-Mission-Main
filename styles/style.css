@@ -7,38 +7,32 @@
 }
 
 /*Starting point: Banner Section */
-.background-banner{
-    margin: 140px;
+.background-banner-text{
+    margin:140px;
     width: 1320px;
     height: 600px;
-    background-image: url('../images/Banner-image.png');
+    color:#FFF;
     position: relative;
+    background-image:url('../images/Banner-image.png');
 }
-.background-banner img{
-    padding: 140px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    width: 100%;
-}
-
-.background-banner .background-text{
-    color: rgb(255, 255, 255);
+#new-year{
     position: absolute;
-    left: 50%;
-    top: 40%;
-    text-align: center;
-    transform: translate(-50%,-50%);
-    font-size: 72px;
-    font-weight: 900;
-    font-style: normal;
+    top:25%;
+    left: 40%;    
+    color: #FFF;
     font-family: Merriweather;
-
+    font-size:32px;
+    font-weight:400;
 }
-.background-banner .background-text #new-year{
-    font-size: 20px;
-}
-.background-banner .background-text #new-year-party{
-    padding-top: 20px;
+#new-year-party{
+    position: absolute;
+    top:35%;
+    left: 30%; 
+    width: 630px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size:72px;
+    font-weight:900;
 }
 /*End point: Banner Section */
 
