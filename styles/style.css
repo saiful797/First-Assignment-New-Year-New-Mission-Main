@@ -40,8 +40,8 @@
     width: 630px;
     color: #FFF;
     font-family: Merriweather;
-    font-size:72px;
-    font-weight:900;
+    font-size: 72px;
+    font-weight: 900;
 }
 /*End point: Banner Section */
 /* ............................................................................. */
@@ -318,6 +318,7 @@
 }
 .gift-image1{
     display: flex;
+    width: 1320px;
     padding-top: 20px;
     justify-content: space-between;
 }
