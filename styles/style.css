@@ -275,7 +275,7 @@
 #offer-50{
     display: flex;
     position: relative;
-    padding-left: 905px;
+    padding-left: 890px;
 }
 #Group44{
     position: absolute;
@@ -289,27 +289,27 @@
     position: absolute;
     bottom: 10px;
     z-index: 1;
-
 }
 .image-group{
     position: relative;
     width: 1335px;
     height: 229px; 
+    background-image: url('../images/Rectangle2.png');
+    background-repeat: no-repeat;
     border-radius: 16px 0px 16px 16px;
-    background-color:#F00;    
+    /* background-color:#F00;     */
 }
-
 .magic-offer{
     margin: 140px;
     width: 1320px;
     height:auto;
-    position: 50%;
 }
 /*End point: Magic Box offer */
 
 /*Starting point: THE BEST GIFTS & Portfolio Section */
 .the-best-gift{
     margin: 140px;
+    margin-top: 50px;
     padding-top: 50px;
 }
 .header-best-gifts{
