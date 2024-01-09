@@ -330,8 +330,8 @@
 /*Starting point: subscribe Section */
 .subscribe{
     margin: 140px;
-    width: 1320px;
-    height: 400px;
+    width: 1300px;
+    height: 500px;
     border-radius: 10px;
     background-color: #fdf1f1;
     text-align: center;
@@ -355,7 +355,7 @@
     padding-top: 10px;
     font-weight: 400;
 }
-.subscribe .input-email{
+.input-email{
     padding-top: 50px;
     border: none;
     height: 70px;
@@ -364,6 +364,27 @@
 #sub-email{
     background-color: #F00;
     color: #FFF;
+}
+.input-email{
+    position: relative;
+}
+.subscribe .input-email input{
+    width: 30%;
+    margin-left: -10%;
+    height: 70px;
+    border: 0;
+    border-radius: 50px 0px 0px 50px;
+    padding-left: 40px;
+}
+#btn-subscribe{
+    position: absolute;
+    background-color: #F00;
+    color: #FFF;
+    width: 150px;
+    border: 0;
+    border-radius: 0px 50px 50px 0px;
+    height: 70px;
+    font-size: 20px;
 }
 /*End point: subscribe Section */
 /* ............................................................................. */
