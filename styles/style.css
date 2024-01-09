@@ -2,7 +2,7 @@
     padding:0;
     margin:0;
 }
-
+/* ............................................................................. */
 /*Starting point: Banner Section */
 .background-banner-text{
     margin:140px;
@@ -33,7 +33,6 @@
     font-size:72px;
     font-weight:900;
 }
-
 #new-year-cele{
     position: absolute;
     top:50%;
@@ -45,7 +44,7 @@
     font-weight:900;
 }
 /*End point: Banner Section */
-
+/* ............................................................................. */
 /*Starting point: 65% OFF Section */
 .offers{
     position: relative;
@@ -53,13 +52,11 @@
     width: 100%;
     font-style: normal;
 }
-
 .offers #new-year-offer{
     color: #F00;
     font-size: 88px;
     font-family: Inter;
 }
-
 .offers #offers-holiday{
     color: #F00;
     font-size: 20px;
@@ -72,12 +69,11 @@
     padding-top: 15px;
     font-size:  40px;
 }
-
 .offers img{
     padding-top: 48px;
 }
 /*End point: 65% OFF Section */
-
+/* ............................................................................. */
 /*starting point: Welcome to Midnight Party Section*/
 .midnight-part{
     margin:140px;
@@ -95,7 +91,6 @@
     top:30%;
     left: 100px;
 }
-
 #midnight-welcome-text{
     width: 640px;
     color: #FFF;
@@ -104,26 +99,23 @@
     font-weight: 900;
     padding-bottom: 15px;
 }
-
 #mid-text{
     width: 700px;
-    color: rgba(255, 255, 255, 0.80);
+    color: rgba(255, 255, 255, 0.8);
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
     padding-bottom: 50px;
 }
-
 #midnight-join{
     padding-left: 50px;
 }
-
 .mid-2024{
     padding-top: 100px;
     padding-right: 100px;
 }
 /*End point: Welcome to Midnight Party Section*/
-
+/* ............................................................................. */
 /*Starting point: Place, Date & Time Section */
 .bg-style{
     margin: 140px;
@@ -136,24 +128,20 @@
     background-color: #fdf1f1;
     text-align: center;
 }
-
 .bg-style .shope-place .arrange{
     color: #F00;
 }
-
- .bg-style .shope-place{
+.bg-style .shope-place{
     font-size: 30px;
     font-family: Inter;
     position: absolute;
     left: 30%;
     top: 30%;   
 }
-
 .text-place{
     font-family: Inter;
     padding-top: 10px;
 }
-
 #join-btn{
     background-color: #F00;
     color: white;
@@ -166,7 +154,7 @@
     padding-top: 20px;
 }
 /*End point: Place, Date & Time Section */
-
+/* ............................................................................. */
 /*Starting point: NEW BEST OFFER Section */
 .new-best-offer{
     margin: 140px;
@@ -180,24 +168,21 @@
     width: 350px;
     padding-top: 150px ;
 }
-
 #offer-text{
     color: #F00;
     font-family: Inter;
     font-size: 20px;
     font-weight: 500;
 }
-
 #text-coming-soon{
-    color: #070211;
+    color: #070310;
     padding-top: 20px;
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
 }
-
 #Best-text{
-    color: rgba(7, 2, 17, 0.60);
+    color: rgba(4, 1, 11, 0.6);
     font-family: Inter;
     font-size: 15px;
     padding-top: 20px;
@@ -233,7 +218,7 @@
     padding-top: 40px;
 }
 /*End point: NEW BEST OFFER Section */
-
+/* ............................................................................. */
 /* Starting Point: WHAT IS FUNCTIONAL  */
 .what-is-function{
     margin: 140px;
@@ -269,9 +254,12 @@
     font-weight: 500;
 }
 /* End Point: WHAT IS FUNCTIONAL  */
-
+/* ............................................................................. */
 /*Starting point: Magic Box offer */
-
+.magic-offer{
+    margin-left: 140px;
+    width: 1320px;
+}
 #offer-50{
     display: flex;
     position: relative;
@@ -297,15 +285,9 @@
     background-image: url('../images/Rectangle2.png');
     background-repeat: no-repeat;
     border-radius: 16px 0px 16px 16px;
-    /* background-color:#F00;     */
-}
-.magic-offer{
-    margin: 140px;
-    width: 1320px;
-    height:auto;
 }
 /*End point: Magic Box offer */
-
+/* ............................................................................. */
 /*Starting point: THE BEST GIFTS & Portfolio Section */
 .the-best-gift{
     margin: 140px;
@@ -319,7 +301,6 @@
     font-size: 24px;
     font-weight: 500;
 }
-
 #best-gift-portfolio{
     color: #070211;
     font-family: Merriweather;
@@ -327,29 +308,25 @@
     font-weight: 900;
     padding-bottom: 15px;
 }
-
 #gift-text{
     color: rgba(8, 3, 18, 0.6);
     font-family: Inter;
     font-size: 20px;
-    width: 850px;
+    width: 1000px;
     font-weight: 400;
     padding-bottom: 15px;
 }
-
 .gift-image1{
     display: flex;
     padding-top: 20px;
     justify-content: space-between;
 }
-
 .img-hover:hover{
     transform: scale(1.5);
     z-index: 3;
 }
 /*Starting point: THE BEST GIFTS & Portfolio Section */
-
-
+/* ............................................................................. */
 /*Starting point: subscribe Section */
 .subscribe{
     margin: 140px;
@@ -368,29 +345,28 @@
     font-size: 48px;
     font-weight: 900;
 }
-
 .subscribe #subscribe-text{
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
+    padding-left: 150px;
+    width: 1000px;
     font-size: 20px;
     padding-top: 10px;
     font-weight: 400;
 }
-
 .subscribe .input-email{
     padding-top: 50px;
     border: none;
     height: 70px;
     border-radius:5px;
 }
-
 #sub-email{
     background-color: #F00;
     color: #FFF;
 }
 /*End point: subscribe Section */
-
+/* ............................................................................. */
 /*Starting point: footer section */
 .footer-section{
     width: 100%;
@@ -418,7 +394,6 @@
     padding-right: 200px;
     padding-bottom: 40px;
 }
-
 .social-links{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -433,8 +408,8 @@
     padding-top: 50px;
     padding-right: 200px;
 }
-
 .social-links .link-icon{
     padding-right: 10px;
 }
-/*End point: footer section */
+/*End point: footer section*/
+/* ............................................................................. */
