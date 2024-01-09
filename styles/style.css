@@ -270,6 +270,8 @@
 }
 /* End Point: WHAT IS FUNCTIONAL  */
 
+/*Starting point: Magic Box offer */
+
 #offer-50{
     display: flex;
     position: relative;
@@ -277,15 +279,16 @@
 }
 #Group44{
     position: absolute;
-    top: 35%;
-    left: 60%;
+    top: 23%;
+    left: 55%;
 }
 .offer-50-img-box{
     position: relative;
 }
 #offer-group75{
     position: absolute;
-    bottom: 70px;
+    bottom: 10px;
+    z-index: 1;
 
 }
 .image-group{
@@ -296,7 +299,6 @@
     background-color:#F00;    
 }
 
-/*Starting point: Magic Box offer */
 .magic-offer{
     margin: 140px;
     width: 1320px;
