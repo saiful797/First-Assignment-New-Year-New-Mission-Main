@@ -307,7 +307,7 @@
 }
 /*End point: Magic Box offer */
 
-/*Starting point: Portfolio Section */
+/*Starting point: THE BEST GIFTS & Portfolio Section */
 .the-best-gift{
     margin: 140px;
     padding-top: 50px;
@@ -332,6 +332,7 @@
     color: rgba(8, 3, 18, 0.6);
     font-family: Inter;
     font-size: 20px;
+    width: 850px;
     font-weight: 400;
     padding-bottom: 15px;
 }
@@ -343,12 +344,10 @@
 }
 
 .img-hover:hover{
-
     transform: scale(1.5);
     z-index: 3;
 }
-
-/*End point: Portfolio Section */
+/*Starting point: THE BEST GIFTS & Portfolio Section */
 
 
 /*Starting point: subscribe Section */
@@ -410,6 +409,9 @@
 .footer-add{
     padding-top: 100px;
     padding-bottom: 40px;
+}
+#florida{
+    padding-top: 10px;
 }
 .footer-contact{
     padding-top: 100px;
